@@ -1,0 +1,23 @@
+<?php
+
+class manusia{
+
+    public $nama = "Balmon Cakeeuuppp";
+
+    private function tampilkan_nama(){
+        echo "Nama saya malasngoding <br>";
+    }
+
+    public function keluarkan(){
+        $this->tampilkan_nama();
+    }
+
+}
+
+$cetak = new manusia();
+//manggil method
+echo $cetak->keluarkan();
+//manggil property
+echo $cetak->nama;
+
+?>
